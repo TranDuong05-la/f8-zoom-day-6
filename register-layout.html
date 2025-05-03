@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register-layout</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        form:focus-within{
+           border-color: #12c359;
+   
+        }
+        /* body{
+            width: 100%;
+            height: 100%;
+        } */
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <!-- start -->
+        <div class="introduction-image">
+            <img src="https://wallpaperaccess.com/full/114760.jpg" alt="people">       
+        </div>
+
+        <div class="info">
+            <!-- start -->
+            <div class="form-box">
+                <h2>Register</h2>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">
+                            <span class="form-lable">Name:</span>
+                            <input type="text" class="text-input" placeholder="Username" id="name" spellcheck="false" required>
+                        </label>
+                    </div>
+                   
+                    <div class="form-group">
+                       <label for="email">
+                        <span class="form-lable">Email:</span>
+                        <input type="email" name="email" id="email" class="text-input" placeholder="Email" spellcheck="false" required>
+                       </label>
+                    </div>
+                <div class="form-group">
+                   <label for="phone">
+                    <span class="form-lable">Phone number:</span>
+                    <input type="tel" id="phone" class="text-input" name="phone" placeholder="Phone number" spellcheck="false" required>
+                   </label>
+                </div>
+                    <div class="form-group">
+                        <label for="password">
+                         <span class="form-lable">Password:</span>
+                         <input type="password" name="password"placeholder="password" id="password" class="text-input" spellcheck="false" required>
+                        </label>
+                     </div>
+                     <div class="form-group">
+                        <label for="Confirm">
+                         <span class="form-lable">Confirm Password:</span>
+                         <input type="password" name="Confirm Password" placeholder="Confirm Password" id="Confirm" class="text-input" spellcheck="false" required>
+                        </label>
+                     </div>
+                     <div class="form-group">
+                        <label for=""><span>Gender:</span></label>
+                        <input type="radio" name="gender" id="male" />
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" />
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="other" />
+                        <label for="other">Other</label>
+                    </div>
+                        
+                     <div class="form-group">
+                        <button class="btn re">Login</button>
+                        <div class="divider">— or —</div>
+                        <button class="btn fb">Register with Facebook</button>
+                        <button class="btn tw">Register with Twitter</button>
+                        <button class="btn gg">Register with Google</button>
+                     </div>
+                </form>
+                
+            </div>
+            <!-- end -->
+        </div>
+         <!-- end -->
+    </div>
+</body>
+</html>
